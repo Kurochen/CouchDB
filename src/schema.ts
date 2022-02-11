@@ -3,7 +3,6 @@ import { buildSchema } from "graphql";
 export default buildSchema(`
   type Book {
     book: String!
-    author: String!
 }
    type Doc {
     book: String!
